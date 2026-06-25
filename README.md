@@ -4,8 +4,7 @@ An interactive corporate business intelligence dashboard built in Power BI to an
 
 ## 📸 Dashboard Preview
 
-![Dashboard Preview](<img width="1167" height="657" alt="E-commerce" src="https://github.com/user-attachments/assets/e4372b44-d5b2-412a-b01b-8c6e42f58aa6" />
-)
+![Dashboard Preview](<img width="1167" height="657" alt="E-commerce" src="https://github.com/user-attachments/assets/43152b69-04c6-49af-8343-55ad8a37b67e" />)
 
 ---
 
