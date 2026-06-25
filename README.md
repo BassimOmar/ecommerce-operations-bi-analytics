@@ -1,4 +1,3 @@
-<img width="1167" height="657" alt="E-commerce" src="https://github.com/user-attachments/assets/b123fd81-ebec-449b-a47c-945901a8b493" />
 # 🛍️ E-Commerce Sales & Operations Analytics Dashboard
 
 An interactive corporate business intelligence dashboard built in Power BI to analyze e-commerce store performance. The report translates raw transactional retail logs into high-impact executive insights covering product demand, category distribution, cash-flow analytics, and localized geographic customer demand across major commercial hubs.
@@ -59,5 +58,5 @@ Instead of relying on raw metrics, the dashboard implements custom DAX logic to 
   ```DAX
   Total Revenue = SUMX('ecommerce_sales', 'ecommerce_sales'[Quantity] * 'ecommerce_sales'[Price])
 * **Average Order Value:**
-
+  ```DAX
   Average Order Value = DIVIDE([Total Revenue], DISTINCTCOUNT('ecommerce_sales'[Order_ID]))
