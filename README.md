@@ -56,3 +56,5 @@ Instead of relying on raw metrics, the dashboard implements custom DAX logic to 
 * **Total Revenue:** Iterates line-by-line evaluating sales quantity against individual product price points.
   ```DAX
   Total Revenue = SUMX('ecommerce_sales', 'ecommerce_sales'[Quantity] * 'ecommerce_sales'[Price])
+  ----
+  Average Order Value = DIVIDE([Total Revenue], DISTINCTCOUNT('ecommerce_sales'[Order_ID]))
